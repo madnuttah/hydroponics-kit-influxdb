@@ -34,6 +34,13 @@ Ezo_board* default_board = &device_list[0]; //used to store the board were talki
 //gets the length of the array automatically so we dont have to change the number every time we add new boards
 const uint8_t device_list_len = sizeof(device_list) / sizeof(device_list[0]);
 
+//------For version 1.4 use these enable pins for each circuit------
+//const int EN_PH = 13;
+//const int EN_EC = 12;
+//const int EN_RTD = 33;
+//const int EN_AUX = 27;
+//------------------------------------------------------------------
+
 //------For version 1.5 use these enable pins for each circuit------
 const int EN_PH = 12;
 const int EN_EC = 27;
